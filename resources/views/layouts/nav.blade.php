@@ -20,7 +20,7 @@
             <span class="d-none d-lg-inline">{{ Auth::user()->name }}</span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Mon Profil</a></li>
+            <li><a class="dropdown-item" href="{{ route('home') }}">Mon Profil</a></li>
             <li><hr class="dropdown-divider"></li>
             <li>
               <form method="POST" action="#">
